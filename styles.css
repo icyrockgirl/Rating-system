@@ -97,18 +97,15 @@ p{
 .attribution { font-size: 11px; text-align: center; color:hsl(0, 0%, 100%)}
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 500px){
     .container{
         width: 77%
-    }
-    .number{
-        width: 15.9%;
-        margin: 3% 3% 3% 0
     }
 }
 
-@media screen and (min-width: 400px) and (max-width: 500px){
-    .container{
-        width: 77%
+@media screen and (max-width: 375px){
+    .number{
+        width: 15.9%;
+        margin: 3% 3% 3% 0
     }
 }
